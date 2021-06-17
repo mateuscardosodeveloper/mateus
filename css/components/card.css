@@ -1,0 +1,12 @@
+.card {
+    background-color: #3A4042;
+    width: 640px;
+    padding: 48px 0;
+    margin: 215px 0 0 157px;
+    box-shadow: 5px 5px 0 #000;
+    text-align: center;
+}
+
+.card .title-card {
+    margin-bottom: 28px;
+}

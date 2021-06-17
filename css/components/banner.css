@@ -1,0 +1,14 @@
+.banner {
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 100%;
+    background-color: #8C8C8C;
+    position: absolute;
+    border-bottom: 10px solid #000;
+}
+
+.banner-image {
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+}
