@@ -12,19 +12,3 @@
 .button:hover {
     transform: scale(1.1);
 }
-
-.middle_buttoms {
-    width: 1440px;
-    height: 170px;
-    justify-content: space-between;
-}
-
-.buttom_middle1 {
-    margin: 110px 0 0 202px;
-    padding: 18px 20px;
-}
-
-.buttom_middle2 {
-    margin-left: 212px;
-    padding: 18px 20px 18px 18px;
-}

@@ -1,14 +1,24 @@
 .banner {
+    background-image: url(../../assets/img/pp.png);
     background-repeat: no-repeat;
+    background-position: bottom 0px right 0px;
+    box-sizing: border-box;
     height: 800px;
     width: 100%;
     background-color: #8C8C8C;
-    position: absolute;
     border-bottom: 10px solid #000;
+    padding-top: 215px;
+    padding-left: 110px;
 }
 
-.banner-image {
-    position: absolute;
-    right: 0%;
-    bottom: 0%;
+.banner .wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 640px;
+}
+
+.banner .navigation {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 110px;
 }
