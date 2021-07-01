@@ -1,0 +1,28 @@
+.skill-js {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 37.54px;
+}
+
+.title-js {
+    display: flex;
+    font-size: 25px;
+    color: #FFF;
+    font-family: 'Press Start 2P';
+    margin-left: 25.73px;
+}
+
+.box-js {
+    box-sizing: border-box;
+    width: 320px;
+    height: 40px;
+    border: 5px solid;
+    background: linear-gradient(to right, #7C5E99 35%, #FFF 40%);
+    margin-top: 15px;
+    margin-left: 25.73px;
+}
+
+.align-js {
+    display: flex;
+    flex-direction: column;
+}
