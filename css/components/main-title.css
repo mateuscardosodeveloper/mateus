@@ -1,12 +1,20 @@
-.title {
+.main-title {
     font-family: 'Press Start 2P';
     color: #f1f2f6;
     text-shadow: 5px 5px 0 #000;
 }
 
-.title-card {
+.main-title.-card {
     color: #F25A70;
     font-size: 40px;
     font-family: 'Press Start 2P';
     text-shadow: 5px 5px 0 #000;
+    padding-bottom: 28px;
+}
+
+.main-title.-skill {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 38px;
+    text-shadow: none;
 }

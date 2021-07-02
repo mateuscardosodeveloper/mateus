@@ -1,0 +1,16 @@
+.list-skills {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-left: 242px;
+}
+
+.icon {
+    width: 85px;
+    height: 88.91px;
+}
+
+.icon.-react {
+    width: 92px;
+    height: 88.91px;
+}
