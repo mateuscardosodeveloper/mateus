@@ -1,0 +1,8 @@
+.projects {
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 10px solid #F25A70;
+}

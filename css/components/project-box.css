@@ -1,0 +1,17 @@
+.project-box {
+    display: flex;
+    max-width: 280px;
+    max-height: 280px;
+    background-color: #FFF;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    box-shadow: 10px 10px 0 #808080;
+}
+
+.project-box .icon {
+    width: 280px;
+    height: 250px;
+    margin-right: auto;
+    margin-left: auto;
+}
