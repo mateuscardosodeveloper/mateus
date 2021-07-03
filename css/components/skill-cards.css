@@ -1,7 +1,11 @@
 .skill-cards {
     display: flex;
-    flex-direction: row;
-    margin-bottom: 37.54px;
+}
+
+.align-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .title {
@@ -9,11 +13,6 @@
     font-size: 25px;
     color: #FFF;
     font-family: 'Press Start 2P';
-    margin-left: 25.73px;
-}
-
-.title.-react {
-    margin-left: 18.73px;
 }
 
 .bar {
@@ -21,16 +20,12 @@
     width: 320px;
     height: 40px;
     border: 5px solid;
-    background: linear-gradient(to right, #7C5E99 70%, #FFF 75%);
-    margin-top: 15px;
-    margin-left: 25.73px;
 }
 
-.bar.-react {
-    margin-left: 18.73px;
+.bar::-webkit-progress-bar {
+    background-color: #FFF;
 }
 
-.align-cards {
-    display: flex;
-    flex-direction: column;
+.bar::-webkit-progress-value {
+    background: linear-gradient(to right, #7C5E99 90%, #FFF 100%);
 }
