@@ -1,0 +1,14 @@
+.main-about {
+    background-color: #7C5E99;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 10px solid #000;
+}
+
+.main-about .text-about {
+    display: flex;
+    text-align: justify;
+    color: #FFF;
+    font-size: 30px;
+    margin: 20px;
+}
