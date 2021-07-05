@@ -12,4 +12,9 @@
     height: 250px;
     margin-right: auto;
     margin-left: auto;
+    transition: transform 100ms linear;
+}
+
+.project-box .icon:hover {
+    transform: scale(1.1);
 }

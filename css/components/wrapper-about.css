@@ -1,0 +1,41 @@
+.wrapper-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper-about .box {
+    box-sizing: border-box;
+    border: 5px solid #000;
+    background-color: #CEB02A;
+    width: 220px;
+    height: 140px;
+    text-align: center;
+    padding-top: 42px;
+}
+
+.wrapper-about .box-second {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 5px solid #000;
+    background-color: #F25A70;
+    width: 140px;
+    height: 140px;
+    align-items: center;
+}
+
+.wrapper-about .left-carousel {}
+
+.wrapper-about .vertical-line {
+    border-left: 5px dashed black;
+    margin: 0 auto;
+    height: 40px;
+}
+
+.wrapper-about .line {
+    margin-top: 9px;
+    border-bottom: 5px solid black;
+    display: block;
+    width: 150%;
+}
