@@ -37,3 +37,7 @@
     display: block;
     width: 150%;
 }
+
+.wrapper-about .line.-final {
+    width: 180%;
+}
