@@ -1,7 +1,6 @@
 .main-banner {
-    background-image: url(../../assets/img/my_photo.png);
-    background-repeat: no-repeat;
-    background-position: bottom 0px right 0px;
+    display: flex;
+    justify-content: space-between;
     box-sizing: border-box;
     height: 800px;
     width: 100%;
@@ -9,6 +8,11 @@
     border-bottom: 10px solid #000;
     padding-top: 215px;
     padding-left: 110px;
+}
+
+.main-banner .image-banner {
+    max-width: 640px;
+    max-height: 640px;
 }
 
 .main-banner .wrapper {
