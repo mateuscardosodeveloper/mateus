@@ -18,12 +18,3 @@
     text-align: center;
     margin-bottom: 40px;
 }
-
-.main-title.-years-about {
-    display: flex;
-    justify-content: space-around;
-    color: #F25A70;
-    text-shadow: none;
-    font-size: 25px;
-    padding-bottom: 9px;
-}
