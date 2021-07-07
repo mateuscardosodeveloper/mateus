@@ -7,8 +7,13 @@
     transition: transform 100ms linear;
     text-decoration: none;
     color: #FFF;
+    cursor: pointer;
 }
 
 .main-button:hover {
     transform: scale(1.1);
+}
+
+.main-button.-full:hover {
+    transform: scale(1.02);
 }

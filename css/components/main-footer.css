@@ -1,13 +1,10 @@
 .main-footer {
-    background-color: #000;
-    padding-top: 28px;
-    padding-bottom: 28px;
-}
-
-.main-footer .wrapper-footer {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    background-color: #000;
+    padding-top: 28px;
+    padding-bottom: 28px;
 }
 
 .main-footer .img-size {

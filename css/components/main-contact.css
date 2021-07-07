@@ -1,13 +1,10 @@
 .main-contact {
     background-color: #3A4042;
     padding: 10px 0 10px 0;
-}
-
-.main-contact .wrapper-contact {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 40px;
+    padding: 50px 50px;
 }
 
 .main-contact .title-contact {
@@ -20,15 +17,9 @@
     box-sizing: border-box;
     border: 5px solid #000;
     font: 25px 'Fira Code', sans-serif;
+    margin-bottom: 10px;
 }
 
-.main-contact .botton-contact {
-    background-color: #F25A70;
-    box-shadow: 5px 5px 0 #000;
-}
-
-.main-contact .message-contact {
-    border: 5px solid #000;
+.main-contact .box-contact.-textarea {
     margin-bottom: 40px;
-    font: 25px 'Fira Code', sans-serif;
 }
