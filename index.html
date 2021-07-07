@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -34,11 +34,11 @@
     <header class="main-header">
         <h1 class="main-title">MH</h1>
         <nav>
-            <a class="main-action" href="" lang="en">Skills</a>
-            <a class="main-action" href="">Projects</a>
-            <a class="main-action" href="">About</a>
-            <a class="main-action" href="">Contact</a>
-            <a class="main-button" href="" lang="en">Download CV</a>
+            <a class="main-action" href="#skills" lang="en">Skills</a>
+            <a class="main-action" href="#projects">Projects</a>
+            <a class="main-action" href="#about">About</a>
+            <a class="main-action" href="#contact">Contact</a>
+            <a class="main-button" href="./Currículo - Mateus Cardoso.pdf" download lang="en">Download CV</a>
         </nav>
     </header>
 
@@ -50,14 +50,14 @@
             </div>
 
             <div class="navigation">
-                <a class="main-button buttom_middle1" href="">Download CV</a>
+                <a class="main-button buttom_middle1" href="./Currículo - Mateus Cardoso.pdf" download>Download CV</a>
                 <a class="main-button buttom_middle2" href="">Contact</a>
             </div>
         </div>
         <img class="image-banner" src="./assets/img/my_photo.png">
     </section>
 
-    <section class="main-skills">
+    <section class="main-skills" id="skills">
         <h1 class="main-title -allsections">Skills</h1>
 
         <div class="wrapper-skill">
@@ -144,7 +144,7 @@
         </div>
     </section>
 
-    <section class="main-projects">
+    <section class="main-projects" id="projects">
         <h1 class="main-title -allsections">Projects</h1>
         <div class="project-box">
             <a href="https://github.com/raiizoor" target="_blank">
@@ -153,7 +153,7 @@
         </div>
     </section>
 
-    <section class="main-about">
+    <section class="main-about" id="about">
         <h1 class="main-title -allsections">About</h1>
         <div class="main-title -years-about">
             <div class="wrapper-about">
@@ -223,21 +223,23 @@
         </p>
     </section>
 
-    <section class="main-contact">
-        <div class="wrapper-contact">
-            <h1 class="main-title -allsections"> Contact </h1>
-            <label class="title-contact" for="">Name</label>
-            <input class="box-contact" type="text">
+    <form method="POST" action="">
+        <section class="main-contact" id="contact">
+            <div class="wrapper-contact">
+                <h1 class="main-title -allsections"> Contact </h1>
+                <label class="title-contact" for="">Name</label>
+                <input class="box-contact" type="text" required>
 
-            <label class="title-contact" for="">Email</label>
-            <input class="box-contact" type="email">
+                <label class="title-contact" for="">Email</label>
+                <input class="box-contact" type="email" required>
 
-            <label class="title-contact" for="">Message</label>
-            <textarea class="message-contact" name="" id="" cols="30" rows="10"></textarea>
+                <label class="title-contact" for="">Message</label>
+                <textarea class="message-contact" name="message" id="message" cols="30" rows="10" required></textarea>
 
-            <button class="title-contact botton-contact">Send</button>
-        </div>
-    </section>
+                <input type="submit" class="title-contact botton-contact"></input>
+            </div>
+        </section>
+    </form>
 
     <section class="main-footer">
         <div class="wrapper-footer">
