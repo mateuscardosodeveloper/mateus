@@ -34,4 +34,5 @@
 .main-about .elements {
     display: flex;
     justify-content: space-evenly;
+    transition: transform 400ms ease-in-out;
 }
