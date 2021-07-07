@@ -49,7 +49,7 @@
 
             <div class="navigation">
                 <a class="main-button buttom_middle1" href="./Currículo - Mateus Cardoso.pdf" download>Download CV</a>
-                <a class="main-button buttom_middle2" href="">Contact</a>
+                <a class="main-button buttom_middle2" href="#contact">Contact</a>
             </div>
         </div>
         <img class="image-banner" src="./assets/img/my_photo.png">
@@ -144,6 +144,7 @@
 
     <section class="main-projects" id="projects">
         <h1 class="main-title -allsections">Projects</h1>
+
         <div class="project-box">
             <a href="https://github.com/raiizoor" target="_blank">
                 <img class="icon" src="./assets/img/icons/ico_git.png">
@@ -160,37 +161,32 @@
         </p>
     </section>
 
-    <form method="POST" action="">
-        <section class="main-contact" id="contact">
-            <div class="wrapper-contact">
-                <h1 class="main-title -allsections"> Contact </h1>
-                <label class="title-contact" for="">Name</label>
-                <input class="box-contact" type="text" required>
+    <form method="POST" action="" class="main-contact" id="contact">
+        <legend class="main-title -allsections"> Contact </legend>
 
-                <label class="title-contact" for="">Email</label>
-                <input class="box-contact" type="email" required>
+        <label class="title-contact" for="name">Name</label>
+        <input class="box-contact" id="name" type="text" required>
 
-                <label class="title-contact" for="">Message</label>
-                <textarea class="message-contact" name="message" id="message" cols="30" rows="10" required></textarea>
+        <label class="title-contact" for="email">Email</label>
+        <input class="box-contact" id="email" type="email" required>
 
-                <input type="submit" class="title-contact botton-contact"></input>
-            </div>
-        </section>
+        <label class="title-contact" for="message">Message</label>
+        <textarea class="box-contact -textarea" id="message" cols="30" rows="10" required></textarea>
+
+        <input type="submit" value="Send" class="title-contact main-button -full">
     </form>
 
-    <section class="main-footer">
-        <div class="wrapper-footer">
-            <a href="https://www.instagram.com/mateus_cardoso44/" target="_blank">
-                <img class="img-size" src="./assets/img/icons-bottom/ico_instagram_bottom.png" alt="">
-            </a>
-            <a href="mailto:mateus.informatica44@gmail.com" target="_blank">
-                <img class="img-size" src="./assets/img/icons-bottom/ico_gmail_bottom.png" alt="">
-            </a>
-            <a href="https://www.facebook.com/mateus.henrique.50746/" target="_blank">
-                <img class="img-size" src="./assets/img/icons-bottom/ico_facebook_bottom.jpg" alt="">
-            </a>
-        </div>
-    </section>
+    <footer class="main-footer">
+        <a href="https://www.instagram.com/mateus_cardoso44/" target="_blank">
+            <img class="img-size" src="./assets/img/icons-bottom/ico_instagram_bottom.png">
+        </a>
+        <a href="mailto:mateus.informatica44@gmail.com" target="_blank">
+            <img class="img-size" src="./assets/img/icons-bottom/ico_gmail_bottom.png">
+        </a>
+        <a href="https://www.facebook.com/mateus.henrique.50746/" target="_blank">
+            <img class="img-size" src="./assets/img/icons-bottom/ico_facebook_bottom.jpg">
+        </a>
+    </footer>
 
 </body>
 
