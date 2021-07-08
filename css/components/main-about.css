@@ -6,7 +6,6 @@
 }
 
 .main-about .text-about {
-    display: flex;
     text-align: justify;
     color: #FFF;
     font-size: 30px;
