@@ -1,0 +1,4 @@
+# Code editors
+.devcontainer/
+.vscode/
+.idea/
